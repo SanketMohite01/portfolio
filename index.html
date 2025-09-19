@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sanket Mohite — Portfolio</title>
+
+  <!-- Bootstrap + FontAwesome + AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bg-canvas" class="bg-canvas"></canvas>
+
+  <!-- NAV -->
+  <nav class="navbar sticky-top custom-nav">
+    <div class="container">
+      <a class="navbar-brand neon-title" href="index.html">Sanket</a>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-sm neon-btn">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="container hero-content" data-aos="zoom-in">
+      <h1 class="hero-title gradient-head">Sanket Mohite</h1>
+      <p class="hero-sub">Backend Developer • Python & Java • Database Systems</p>
+      <div class="hero-cta mt-4">
+        <a href="#resume" class="btn neon-ghost me-3">📄 View Resume</a>
+        <a href="#projects" class="btn neon-btn">Explore Projects <i class="fa-solid fa-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section dark-section pt-6 pb-6">
+    <div class="container text-center" data-aos="fade-up">
+      <h2 class="section-heading">About <span class="accent">Me</span></h2>
+      <p class="muted">
+        A 3rd-year BE (IT) student building backend systems, automation tools, and computer vision projects. Passionate about clean architecture, databases, and practical solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section glass-section py-6">
+    <div class="container" data-aos="fade-up">
+      <div class="resume-card">
+        <div class="resume-left">
+          <h3 class="gradient-head">Resume</h3>
+          <p class="muted">Download my complete resume with projects, certifications, and contact details.</p>
+          <a href="Sanket_mohite_resume.pdf" download class="btn neon-btn mt-3"><i class="fa-solid fa-download me-2"></i>Download Resume</a>
+        </div>
+        <div class="resume-right text-center">
+          <div class="resume-badge">SANKET</div>
+          <p class="muted small">sanketmohite7304@gmail.com</p>
+          <div class="mt-3">
+            <a href="https://github.com/SanketMohite01" target="_blank" class="social neon-outline me-2"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/sanket-mohite-9a7456295" target="_blank" class="social neon-outline"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section dark-section py-6">
+    <div class="container text-center">
+      <h2 class="section-heading" data-aos="fade-up">Technical <span class="accent">Skills</span></h2>
+      <div class="d-flex flex-wrap justify-content-center gap-2 mt-3" data-aos="fade-up" data-aos-delay="100">
+        <span class="skill-chip">Python</span>
+        <span class="skill-chip">Java</span>
+        <span class="skill-chip">SQL / MySQL</span>
+        <span class="skill-chip">OpenCV</span>
+        <span class="skill-chip">EasyOCR</span>
+        <span class="skill-chip">Flask</span>
+        <span class="skill-chip">HTML/CSS/JS</span>
+        <span class="skill-chip">Git / GitHub</span>
+        <span class="skill-chip">VS Code</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section glass-section py-6">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-heading">My <span class="accent">Experience</span></h2>
+        <p class="muted">Internships and training programs that shaped my technical journey.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Edunet AICTE -->
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="glass-card p-4">
+            <h5 class="gradient-head">Frontend Web Development Intern — Edunet Foundation (AICTE)</h5>
+            <p class="muted small">Aug 2025 – Oct 2025 • 6 Weeks</p>
+            <ul class="muted small">
+              <li>Worked on <strong>frontend web development</strong> projects via IBM SkillsBuild.</li>
+              <li>Mentor-guided sessions and project-based learning.</li>
+              <li>Developed & presented project in final week.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Microsoft -->
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="glass-card p-4">
+            <h5 class="gradient-head">AI Intern — Microsoft AI Virtual Internship</h5>
+            <p class="muted small">2024</p>
+            <ul class="muted small">
+              <li>Explored foundations of AI and Machine Learning.</li>
+              <li>Worked on practical case studies and responsible AI practices.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Deloitte -->
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="glass-card p-4">
+            <h5 class="gradient-head">Consulting Intern — Deloitte (Virtual)</h5>
+            <p class="muted small">2024</p>
+            <ul class="muted small">
+              <li>Participated in Deloitte Technology Consulting simulation.</li>
+              <li>Learned client engagement, project delivery, and presentation skills.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS (same as before) -->
+  <section id="projects" class="section glass-section py-6">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-heading">My <span class="accent">Work</span></h2>
+        <p class="muted">A selection of practical projects demonstrating backend, automation, and computer vision skills.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Example project card -->
+        <div class="col-md-4" data-aos="fade-up">
+          <article class="project-card">
+            <h5 class="project-title">Instagram Follower Bot</h5>
+            <p class="muted">Automates following users on Instagram using Python and Selenium.</p>
+            <a href="https://github.com/SanketMohite01/Instagram-Follower-Bot" target="_blank" class="btn-sm neon-outline">GitHub</a>
+          </article>
+        </div>
+        <!-- (repeat other project cards like before) -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+          <article class="project-card">
+            <h5 class="project-title">Amazon Price Tracker</h5>
+            <p class="muted">Monitors Amazon product prices in real-time and sends email alerts when prices drop to your target.</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/amazon-price-tracker" target="_blank" class="btn-sm neon-outline">GitHub</a>
+              <!--<span class="badge bg-dark text-muted ms-2">Web Scraping</span>-->
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <article class="project-card">
+            <h5 class="project-title">Billboard Hot 100 → Spotify Playlist</h5>
+            <p class="muted">Automatically generates Spotify playlists from the Billboard Hot 100 chart for a given date.</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/-Billboard-Hot-100-to-Spotify-Playlist" target="_blank" class="btn-sm neon-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+         <div class="col-md-4" data-aos="fade-up">
+          <article class="project-card">
+            <h5 class="project-title">Habit Tracker</h5>
+            <p class="muted">Simple habit tracker application to help users track daily habits and maintain consistency over time.</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/-HabitTracker" target="_blank" class="btn-sm neon-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+          <article class="project-card">
+            <h5 class="project-title">Stock News Alert</h5>
+            <p class="muted">Notifies users about major stock news and price movements using financial APIs and email alerts.</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/Stock_News_Alert" target="_blank" class="btn-sm neon-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <article class="project-card">
+            <h5 class="project-title">Rain Alert Notification System</h5>
+            <p class="muted">Sends real-time rain forecast notifications to users based on weather API data.</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/Rain-Alert-Notification-System" target="_blank" class="btn-sm neon-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up">
+          <article class="project-card">
+            <h5 class="project-title">Vehicle Number Plate Detection</h5>
+            <p class="muted">Detects and extracts vehicle number plates from images using OpenCV and EasyOCR.</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/vehicle-number-plate-detection" target="_blank" class="btn-sm neon-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+          <article class="project-card">
+            <h5 class="project-title">Hospital Management System</h5>
+            <p class="muted">Comprehensive Java + MySQL system to manage patient records, appointments, and billing.</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/Hospital-Management-System" target="_blank" class="btn-sm neon-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <article class="project-card">
+            <h5 class="project-title">CRUD Car Rental System</h5>
+            <p class="muted">Full-stack CRUD application for car rentals and bookings (Journey Hire).</p>
+            <div class="mt-3">
+              <a href="https://github.com/SanketMohite01/CRUD-App-Database-for-Car-Rental-System" target="_blank" class="btn-sm neon-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- CERTIFICATIONS & TOOLS -->
+  <section id="certs" class="section dark-section py-6">
+    <div class="container text-center">
+      <h2 class="section-heading">Certifications & <span class="accent">Tools</span></h2>
+      <div class="row g-4 mt-3">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="glass-card p-4">
+            <h5 class="gradient-head">Certifications</h5>
+            <ul class="muted">
+              <li>100 Days of Code — Python Bootcamp</li>
+              <li>Learn Java — Beginner to Master</li>
+              <li>SQL & Relational Databases 101</li>
+              <li>Foundations of AI — Microsoft Internship</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="glass-card p-4">
+            <h5 class="gradient-head">Tools & Frameworks</h5>
+            <ul class="muted">
+              <li>VS Code, Eclipse</li>
+              <li>Git & GitHub</li>
+              <li>Flask, Tkinter</li>
+              <li>MySQL, SQLite, JDBC</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section glass-section py-6">
+    <div class="container text-center">
+      <h2 class="section-heading">Get <span class="accent">In Touch</span></h2>
+      <p class="muted">If you'd like to collaborate, hire, or chat — reach out.</p>
+      <div class="mt-3">
+        <a href="contact.html" class="btn neon-btn me-2"><i class="fa-solid fa-message me-2"></i>Message Me</a>
+        <a href="mailto:sanketmohite7304@gmail.com" class="btn neon-outline me-2"><i class="fa-solid fa-envelope me-2"></i>Email</a>
+        <a href="https://github.com/SanketMohite01" target="_blank" class="btn neon-outline me-2"><i class="fab fa-github me-2"></i>GitHub</a>
+        <a href="https://linkedin.com/in/sanket-mohite-9a7456295" target="_blank" class="btn neon-outline"><i class="fab fa-linkedin me-2"></i>LinkedIn</a>
+      </div>
+      <p class="muted mt-4 small">© 2025 Sanket Mohite</p>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init({ duration: 700, once: true });</script>
+</body>
+</html>
